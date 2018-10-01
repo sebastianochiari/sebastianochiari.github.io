@@ -178,8 +178,9 @@ label {
 }
 
 .logo {
-    height: 4rem;
+    height: 3.5rem;
     margin-right: 10px;
+    margin-left: 10px;
 }
 
 .menu-navbar {
@@ -190,6 +191,15 @@ label {
     margin: 0px 5px 0px 5px;
     text-transform: uppercase;
     letter-spacing: 1px;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+}
+
+.dropdown-nav-item {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px !important;
+    font-weight: 400 !important;
 }
 
 .social-menu {
@@ -262,7 +272,7 @@ label {
 
 .home-background {
     background-image: url(../images/background_index.jpg);
-    
+
     /* Full height */
     height: 100%;
 
@@ -278,4 +288,10 @@ label {
 
 .align-text-center {
     text-align: center;
+}
+
+@media (max-width: 991px) {
+    .logo {
+        margin-left: 0px;
+    }
 }
