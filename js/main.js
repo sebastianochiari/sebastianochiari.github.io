@@ -1,6 +1,8 @@
 $(document).ready(function() {
     $('.partners-carousel').slick( {
-        dots: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: false,
         infinite: true,
         slidesToShow: 4,
         slidesToScroll: 1,

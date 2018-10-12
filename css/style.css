@@ -43,6 +43,7 @@
 html {
   font-family: sans-serif;
   line-height: 1.15;
+  height: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -ms-overflow-style: scrollbar;
@@ -55,7 +56,8 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
   display: block; }
 
 body {
-  font-family: "Lato", Arial, sans-serif;
+    height: 100%;
+  font-family: "Open Sans", Arial, sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.8;
@@ -177,6 +179,14 @@ label {
   margin-bottom: 0.5rem;
 }
 
+.no-margin {
+    margin: 0px 0px 0px 0px !important;
+}
+
+.no-padding {
+    padding: 0px 0px 0px 0px !important;
+}
+
 .logo {
     height: 3.5rem;
     margin-right: 10px;
@@ -216,6 +226,14 @@ label {
 
 .text-box {
     margin: 2rem 2rem 2rem 2rem;
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+@media (max-width: 991px) {
+    .text-box {
+        margin: 2rem 1rem 1rem 1rem;
+        padding: 0rem 0rem 0rem 0rem;
+    }
 }
 
 .form-item {
@@ -294,4 +312,30 @@ label {
     .logo {
         margin-left: 0px;
     }
+    .blog-navbar {
+        font-size: 0.8rem !important;
+    }
+}
+
+.blog-navbar {
+    font-size: 1.25rem;
+}
+
+.grid-column {
+    padding: 0rem 5px 0rem 5px;
+}
+
+.grid-image {
+    margin: 5px 0px 5px 0px;
+    width: 100%;
+    transition: .25s ease;
+}
+
+.grid-image:hover {
+    opacity: 0.75;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #212529;
+    background-color: #e9ecef !important;
 }
