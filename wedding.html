@@ -9,14 +9,18 @@
     <link rel="shortcut icon" type="image/png" href="images/favicon.png">
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500|Gaegu:700" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Reenie+Beanie" rel="stylesheet">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 
-    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
-    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/simplelightbox.css">
 
     <link rel="stylesheet" href="css/style.css">
 
@@ -28,7 +32,7 @@
     <nav class="navbar navbar-expand-lg navbar-light">
 
             <a href="index.html">
-                <img src="images/firma.png" alt="logo" class="logo">
+                <img src="images/firma.png" alt="logo" class="h-4">
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,25 +43,25 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item menu-navbar-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Gallery
+                            gallery
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item dropdown-nav-item" href="landscapes.html">Landscapes</a>
-                            <a class="dropdown-item dropdown-nav-item" href="street.html">Street</a>
-                            <a class="dropdown-item dropdown-nav-item" href="events.html">Events</a>
+                            <a class="dropdown-item dropdown-nav-item" href="landscapes.html">landscapes</a>
+                            <a class="dropdown-item dropdown-nav-item" href="street.html">street</a>
+                            <a class="dropdown-item dropdown-nav-item" href="events.html">events</a>
                         </div>
                     </li>
                     <li class="nav-item menu-navbar-item active">
-                        <a class="nav-link" href="wedding.html">Weddings</a>
+                        <a class="nav-link" href="wedding.html">weddings</a>
                     </li>
                     <li class="nav-item menu-navbar-item">
-                        <a class="nav-link" href="store.html">Store</a>
+                        <a class="nav-link" href="store.html">store</a>
                     </li>
                     <li class="nav-item menu-navbar-item">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" href="about.html">about</a>
                     </li>
                     <li class="nav-item menu-navbar-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="contact.html">contact</a>
                     </li>
                 </ul>
 
@@ -68,42 +72,107 @@
 
     <main role="main" class="container">
 
-        <div class="text-box mt-3">
-            <a href="#" class="display-center">
-                <img src="images/logos/wedding-memories-logo.png" alt="wedding memories" class="wedding-logo">
-            </a>
+        <div class="text-box mt-1">
+            <p style="text-align: center;">
+                "<i>Le fotografie possono raggiungere l'eternità attraverso il momento</i>" (<b>Henri Cartier-Bresson</b>)
+            </p>
+            
             <div class="row">
-                <div class="col-md-2">
+                <div class="col-md align-self-center">
+                    <a href="#" class="display-center">
+                        <img src="images/logos/wedding-memories-logo.png" alt="wedding memories" class="wedding-logo">
+                    </a>
                 </div>
-                <div class="col">
-                    <div class="align-text-center mt-3">
-                        <p>
-                            In principio, erano <b>Sebastiano Chiari</b> e <b>Andrea Carollo</b>. Poi nacque <b>Wedding Memories</b>.
-                            <br>
-                            "<i>Le fotografie possono raggiungere l'eternità attraverso il momento</i>" (<b>Henri Cartier-Bresson</b>)
-                            <br>
-                            E il nostro scopo è proprio quello, riuscire a rendere eterno il momento più importante della vostra vita.
-                        </p>
-                        <p>Qui di seguito trovate la nostra <b>pagina Facebook</b>
-                        <a class="social-menu display-center" href="#" target="_blank">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        </p>
-                    </div>
-                    <div class="align-text-center mt-3">
-                        <p>
-                            Per avere qualsiasi tipo di <b>informazioni</b>, non esitate a contattarmi compilando il form nella sezione <a href="contact.html">Contact</a>, scrivendoci tramite la nostra <a href="#">pagina Facebook</a> o direttamente tramite la mia e-mail: <a href="mailto:sebastianochiari8@gmail.com"><b>sebastianochiari8@gmail.com</b></a>.
-                            Cercheremo di rispondervi nel minor tempo possibile.
-                            <br>
-                            Qui di seguito, potrete trovare degli esempi (condensati) di <b>reportage matrimonialistici</b> realizzati nell'ultimo periodo.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-2">
+                <div class="col-md align-self-center">
+                    <p class="no-margin">
+                        In principio, erano <b>Sebastiano Chiari</b> e <b>Andrea Carollo</b>. Poi nacque <b>Wedding Memories</b>.
+                        <br>
+                        E il nostro scopo è proprio quello, riuscire a rendere eterno il momento più importante della vostra vita.
+                    </p>
                 </div>
             </div>
+            
+            <div class="align-text-center mt-2">
+                <p>
+                    Per avere qualsiasi tipo di <b>informazioni</b>, non esitate a contattarmi compilando il form nella sezione <a href="contact.html">Contact</a>, scrivendoci tramite la nostra <a href="#">pagina Facebook</a> o direttamente tramite la mia e-mail: <a href="mailto:sebastianochiari8@gmail.com"><b>sebastianochiari8@gmail.com</b></a>.
+                    Cercheremo di rispondervi nel minor tempo possibile.
+                </p>
+            </div>
+            
+            <div class="row mt-2">
+                <div class="col-xs-6 col-sm-6 col-md-6">
+                    <div class="mt-2 mb-2">
+                        <div class="gallery-1">
+                            <h4 class="wedding-title">Elena &amp Riccardo</h4>
+                            <a href="images/wedding/elena-riccardo/00.jpg" class="img-responsive">
+                                <img class="selector-grid" src="images/wedding/cover/elena-riccardo.jpg" alt=""/>
+                            </a>
+                            <a href="images/wedding/elena-riccardo/03.jpg" style="display: none;"></a>
+                            <a href="images/wedding/elena-riccardo/04.jpg" style="display: none;"></a>
+                            <a href="images/wedding/elena-riccardo/05.jpg" style="display: none;"></a>
+                            <a href="images/wedding/elena-riccardo/08.jpg" style="display: none;"></a>
+                            <a href="images/wedding/elena-riccardo/10.jpg" style="display: none;"></a>
+                            <a href="images/wedding/elena-riccardo/17.jpg" style="display: none;"></a>
+                            <a href="images/wedding/elena-riccardo/26.jpg" style="display: none;"></a>
+                            <a href="images/wedding/elena-riccardo/28.jpg" style="display: none;"></a>
+                            <a href="images/wedding/elena-riccardo/31.jpg" style="display: none;"></a>
+                            <a href="images/wedding/elena-riccardo/39.jpg" style="display: none;"></a>
+                            <a href="images/wedding/elena-riccardo/45.jpg" style="display: none;"></a>
+                            <a href="images/wedding/elena-riccardo/46.jpg" style="display: none;"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6">
+                    <div class="mt-2 mb-2">
+                        <div class="gallery-2">
+                            <h4 class="wedding-title">Federica &amp Jacopo</h4>
+                            <a href="images/wedding/federica-jacopo/00.jpg" class="img-responsive">
+                                <img class="selector-grid" src="images/wedding/cover/federica-jacopo.jpg" alt=""/>
+                            </a>
+                            <a href="images/wedding/federica-jacopo/01.jpg" style="display: none;"></a>
+                            <a href="images/wedding/federica-jacopo/02.jpg" style="display: none;"></a>
+                            <a href="images/wedding/federica-jacopo/03.jpg" style="display: none;"></a>
+                            <a href="images/wedding/federica-jacopo/04.jpg" style="display: none;"></a>
+                            <a href="images/wedding/federica-jacopo/05.jpg" style="display: none;"></a>
+                            <a href="images/wedding/federica-jacopo/06.jpg" style="display: none;"></a>
+                            <a href="images/wedding/federica-jacopo/07.jpg" style="display: none;"></a>
+                            <a href="images/wedding/federica-jacopo/08.jpg" style="display: none;"></a>
+                            <a href="images/wedding/federica-jacopo/09.jpg" style="display: none;"></a>
+                            <a href="images/wedding/federica-jacopo/10.jpg" style="display: none;"></a>
+                            <a href="images/wedding/federica-jacopo/11.jpg" style="display: none;"></a>
+                            <a href="images/wedding/federica-jacopo/12.jpg" style="display: none;"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-4">
+                <h5 class="mb-5" style="text-align: center;">dicono di noi</h5>
+                <div class="quotes">
+                    <div>
+                        <div class="display-center" style="width: 70%;">
+                        <p class="align-text-center">
+                            Siamo stati molto contenti di aver scelto Sebastiano e Andrea per il nostro matrimonio...professionalità, attenzione e simpatia sono assicurati!
+                        </p>
+                        <p class="display-center quote-names">
+                            Elena&amp;Riccardo
+                        </p>
+                    </div>
+                    </div>
+                    <div>
+                        <div class="display-center" style="width: 70%;">
+                        <p class="align-text-center">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <p class="display-center quote-names">
+                            Federica&amp;Jacopo
+                        </p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            
         </div>
-
 
     </main>
 
@@ -133,15 +202,19 @@
 
 
 
-
-
-
-
-
     <!-- JS Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/simple-lightbox.js"></script>
+
+    <script type="text/javascript" src="js/wedding.js"></script>
+
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    
+    <script type="text/javascript" src="js/quotes.js"></script>
 
 </body>
 
