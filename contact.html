@@ -81,21 +81,22 @@
                 Nel caso tu sia un'<b>azienda</b>, puoi facilmente visualizzare il mio <b>Media Kit</b> nella sezione <b>About</b> del mio sito.
             </p>
 
-            <form>
+            <form id="myForm" action="contact.php">
                 <div class="form-group form-item">
-                    <label for="exampleFormControlInput1">Name</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Mario Rossi">
+                    <label>Nome</label>
+                    <input name="name" placeholder="Mario Rossi" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Mario Rossi'" class="form-control" required="" type="text" required>
                 </div>
                 <div class="form-group form-item">
-                    <label for="exampleFormControlInput1">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    <label>Indirizzo email</label>
+                    <input name="email" placeholder="name@example.com" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'name@example.com'" class="form-control" required="" type="email">
                 </div>
                 <div class="form-group form-item">
-                    <label for="exampleFormControlTextarea1">Message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <label>Messaggio</label>
+                    <textarea class="form-control mt-20" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Send Message</button>
-            </form>
+                <button type="submit" class="btn btn-primary">Invia</button>
+                <div class="alert-msg"></div>
+            </form>    
 
         </div>
 
