@@ -104,7 +104,7 @@ a {
 .about > .paragraph {
     line-height: 1.7;
     color: #666;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 20px;
     letter-spacing: .4px;
 }
@@ -122,6 +122,6 @@ a {
 
 ul li {
     line-height: 1.7;
-    font-weight: 300;
+    font-weight: 400;
     color: #666;
 }
