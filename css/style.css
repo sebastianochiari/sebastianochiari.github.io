@@ -1,0 +1,127 @@
+.body {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    color: #666;
+}
+
+a {
+    color: #222;
+} a:hover{
+    color: #666;
+    transition: 0.3s;
+}
+
+.body-container {
+    padding-top: 125px;
+    padding-bottom: 40px;
+}
+
+.super-container {
+    width: 100%;
+    max-width: 560px;
+    padding: 15px;
+    margin: auto;
+}
+
+.header-home {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 99;
+}
+
+.header-home > .link > .selfie {
+    width: 150px;
+    margin-bottom: 25px;
+    border-radius: 100%;
+    transition: all 0.2s;
+    box-shadow: 0;
+    opacity: 1;
+}
+
+.header-home > .title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #222;
+    margin: 0 0 13px;
+}
+
+.header-home > .description {
+    font-size: 1rem;
+    font-weight: 300;
+    font-style: normal;
+    color: #aaa;
+    width: 80%;
+    margin: 0 auto 30px;
+}
+
+.social-links {
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.social-links > .link {
+    margin: 5px;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+}
+
+.nav-home {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.super-container img {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 4px;
+    box-shadow: 0;
+    opacity: 1;
+}
+
+.about > .title {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    color: #222;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.about > .subtitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.about > .paragraph {
+    line-height: 1.7;
+    color: #666;
+    font-weight: 300;
+    margin-bottom: 20px;
+    letter-spacing: .4px;
+}
+
+.about > hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.about > .return {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+ul li {
+    line-height: 1.7;
+    font-weight: 300;
+    color: #666;
+}
